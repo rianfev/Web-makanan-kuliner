@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rian Shop - Keranjang Belanja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Rian Shop 🇻🇳</h1>
+  </header>
+
+  <nav class="sidebar">
+    <a href="index.html">Dashboard</a>
+    <a href="cart.html" class="active">Keranjang</a>
+    <a href="bayar.html">Pembayaran</a>
+  </nav>
+
+  <main class="keranjang-container">
+    <h2>🛍️ Keranjang Belanja Kamu</h2>
+    <div id="keranjang-list" class="keranjang-list"></div>
+    <h3 id="total-harga" class="total-harga"></h3>
+    <a href="bayar.html" class="btn-bayar">Lanjut ke Pembayaran 💳</a>
+  </main>
+
+  <script src="cart.js"></script>
+</body>
+</html>
